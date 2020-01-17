@@ -1,5 +1,6 @@
 # CPool_bistro-matic_2017
 First year project in C in which the goal is to write a program that will display the result of an evaluated mathematical expression (kind of a big calculator). The expression will be composed of infinite integers that can be expressed in any base. The program handle following operators: +-*/%, parentheses, operation priorities and syntax errors, but not float numbers.
+The program implements the "Shunting Yeard algorithm" along a doubly circular linked list for the computations + storage and a lexical parser to parse inputs received.
 
 USAGE :
 1) Make 2) ./calc base operators size_read
